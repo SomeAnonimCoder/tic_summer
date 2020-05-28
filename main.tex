@@ -1,5 +1,4 @@
-\documentclass[14pt,a4paper]{scrartcl}
-\renewcommand{\sfdefault}{cmr}
+\documentclass{article}
 
 \usepackage[utf8]{inputenc}
 \usepackage[english,russian]{babel}
@@ -10,41 +9,40 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{amsfonts}
-
+\usepackage{float}
 \usepackage{enumitem}
 \usepackage{soul}
 \usepackage{soulutf8}
+\usepackage{subfig}
 
+\title{Sections and Chapters}
+\author{Gubert Farnsworth}
+\date{ }
 
 \begin{document}
-	\begin{flushright}
-	\textbf{Билеты по теоретической неорганической химии\\
-		Факультет химии, 1 курс}
-\end{flushright}  	
+\maketitle
+
+
+
 
 \section{3 Модуль}
 
 %IMPORT TEX FILE FOR EACH QUESTION
 
-\subsection{Вопрос 1}
+
 \input{m3/q1.tex}
 
-%\subsection{Вопрос 2}
 %\input{m3/q2.tex}
 
 
 %...
-
 \section{4 Модуль}
 
-%\subsection{Вопрос 1}
-%\input{m4/q1.tex}
 
+\input{m4/q1.tex}
 
-%\subsection{Вопрос 2}
-%\input{m4/q2.tex}
+\input{m4/q2.tex}
 
-%\subsection{Вопрос 3}
 %\input{m4/q3.tex}
 
 
